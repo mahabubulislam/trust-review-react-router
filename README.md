@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# Project Name: Trust Reviews
+### Live website: [Trust Reviews](https://trust-reviews.netlify.app/)
+#Link:[https://trust-reviews.netlify.app/](https://trust-reviews.netlify.app/)
+# Project Description:
+* I used React, React Router, Tailwind CSS to create this project.
+* This is a single page application. This is a products review website. It has 5 routes.
+* Home routes is default homepage. Reviews routes is review page. Dashboard routs is designed with some recharts. Blogs routes inside some questions and about routes designed with about information.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

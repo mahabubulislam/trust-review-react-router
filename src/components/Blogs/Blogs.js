@@ -36,16 +36,19 @@ const Blogs = () => {
                     <caption className='table-caption'>Difference between Inline and Inline block</caption>
                     <thead>
                         <tr>
+                            <th className="border border-slate-300 ...">Block</th>
                             <th className="border border-slate-300 ...">Inline</th>
                             <th className="border border-slate-300 ...">Inline block</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
+                            <td className="border border-slate-300 ...">Block element supports all kind of styles</td>
                             <td className="border border-slate-300 ...">Inline doesn’t  support height width, only support margin left, right.</td>
                             <td className="border border-slate-300 ...">Inline Block supports margin, height, width.</td>
                         </tr>
                         <tr>
+                            <td className="border border-slate-300 ...">Block element always start on a new line.</td>
                             <td className="border border-slate-300 ...">An inline element does not start on a new line.</td>
                             <td className="border border-slate-300 ...">Inline block looks like block element but it also does not start on a new line.</td>
                         </tr>

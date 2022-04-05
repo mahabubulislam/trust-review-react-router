@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import useReviews from '../../hook/useReviews';
-import Review from '../Review';
+import Review from '../Review/Review';
 
 const Reviews = () => {
     const [reviews, setReviews] = useReviews()

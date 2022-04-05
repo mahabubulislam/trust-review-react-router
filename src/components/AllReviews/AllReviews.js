@@ -1,6 +1,7 @@
 import React from 'react';
 import useReviews from '../../hook/useReviews';
-import Review from '../Review';
+import Review from '../Review/Review';
+
 
 const AllReviews = () => {
     const [reviews, setReviews] = useReviews()

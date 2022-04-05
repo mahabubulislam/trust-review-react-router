@@ -11,11 +11,11 @@ const Dashboard = () => {
     }, [])
 
     return (
-        <div className='grid grid-cols-1 gap-5 md:grid-cols-2'>
+        <div className='grid grid-cols-1 gap-4 md:grid-cols-2'>
             <div>
-                <h3 className='text-3xl text-center text-indigo-600'>Investment vs Revenue</h3>
+                <h3 className='text-3xl text-center text-indigo-600 my-2'>Investment vs Revenue</h3>
                 <BarChart
-                    width={400}
+                    width={420}
                     height={300}
                     data={data}
                     margin={{
@@ -35,18 +35,18 @@ const Dashboard = () => {
                 </BarChart>
             </div>
             <div>
-                <h3 className='text-3xl text-center text-indigo-600'>Investment vs Revenue</h3>
+                <h3 className='text-3xl text-center text-indigo-600 my-2'>Investment vs Revenue</h3>
 
-                <PieChart width={430} height={250}>
+                <PieChart width={420} height={250}>
                     <Pie data={data} dataKey="investment" nameKey="month" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
                     <Pie data={data1} dataKey="revenue" nameKey="month" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
                     <Tooltip />
                 </PieChart>
             </div>
             <div>
-                <h3 className='text-3xl text-center text-indigo-600'>Investment vs Revenue</h3>
+                <h3 className='text-3xl text-center text-indigo-600 my-2'>Investment vs Revenue</h3>
 
-                <LineChart width={430} height={250} data={data}
+                <LineChart width={420} height={250} data={data}
                     margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="month" />
@@ -58,11 +58,11 @@ const Dashboard = () => {
                 </LineChart>
             </div>
             <div>
-            <h3 className='text-3xl text-center text-indigo-600'>Month wise Sell</h3>
+            <h3 className='text-3xl text-center text-indigo-600 my-2'>Month wise Sell</h3>
 
                 <AreaChart
                     width={420}
-                    height={400}
+                    height={300}
                     data={data}
                     margin={{
                         top: 10,

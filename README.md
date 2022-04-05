@@ -1,6 +1,6 @@
 # Project Name: Trust Reviews
 ### Live website: [Trust Reviews](https://trust-reviews.netlify.app/)
-#Link:[https://trust-reviews.netlify.app/](https://trust-reviews.netlify.app/)
+# Link:[https://trust-reviews.netlify.app/](https://trust-reviews.netlify.app/)
 # Project Description:
 * I used React, React Router, Tailwind CSS to create this project.
 * This is a single page application. This is a products review website. It has 5 routes.

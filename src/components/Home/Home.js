@@ -4,7 +4,7 @@ import Reviews from '../Reviews/Reviews.js';
 const Home = () => {
     return (
         <>
-            <div data-aos="fade-down" className='flex flex-col md:flex-row-reverse justify-between items-center w-auto md:w-3/4 mx-auto my-10'>
+            <div data-aos="fade-down" className='flex flex-col md:flex-row-reverse justify-between items-center w-auto md:w-3/4 mx-auto my-24'>
                 <div className='w-3/5 order-2'>
                     <h1 className='text-xl md:text-4xl font-bold'>
                         AirPods Max — a perfect balance of exhilarating high-fidelity audio and the effortless magic of AirPods.

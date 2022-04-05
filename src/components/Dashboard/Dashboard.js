@@ -11,7 +11,7 @@ const Dashboard = () => {
     }, [])
 
     return (
-        <div className='grid grid-cols-1 gap-4 md:grid-cols-2'>
+        <div className='grid grid-cols-1 gap-4 md:grid-cols-2 my-24'>
             <div>
                 <h3 className='text-3xl text-center text-indigo-600 my-2'>Investment vs Revenue</h3>
                 <BarChart

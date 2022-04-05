@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import About from "./components/About/About";
 import AllReviews from "./components/AllReviews/AllReviews";
 import Blogs from "./components/Blogs/Blogs";
 import Dashboard from "./components/Dashboard/Dashboard";
@@ -15,6 +16,7 @@ function App() {
         <Route path="/reviews" element={<AllReviews/>}></Route>
         <Route path="/dashboard" element={<Dashboard/>}></Route>
         <Route path="/blogs" element={<Blogs/>}></Route>
+        <Route path="/about" element={<About></About>}></Route>
       </Routes>
     </div>
   );

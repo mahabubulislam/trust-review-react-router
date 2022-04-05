@@ -16,11 +16,11 @@ const Blogs = () => {
                     <ul className='list-disc list-inside'>
                         <li>&lt;article&gt;</li>
                         <li> &lt;aside&gt;</li>
-                        <li> &lt;figure&gt</li>
-                        <li> &lt;figcaptio</li>
-                        <li> &lt;section&g</li>
-                        <li> &lt;header&gt</li>
-                        <li> &lt;footer&gt</li>
+                        <li> &lt;figure&gt;</li>
+                        <li> &lt;figcaption&gt;</li>
+                        <li> &lt;section&gt;</li>
+                        <li> &lt;header&gt;</li>
+                        <li> &lt;footer&gt;</li>
                         <li> &lt;main&gt;</li>
                         <li> &lt;mark&gt;</li>
                         <li> &lt;nav&gt;</li>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className='flex flex-col md:flex-row-reverse justify-between items-center w-auto md:w-3/4 mx-auto my-11'>
+        <div data-aos="fade-right" className='flex flex-col md:flex-row-reverse justify-between items-center w-auto md:w-3/4 mx-auto my-11'>
             <div className='order-2'>
                 <h1 className='text-4xl font-bold my-4'>We're Trust Reviewer.</h1>
                 <p>

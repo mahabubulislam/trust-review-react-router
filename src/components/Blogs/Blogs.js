@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blogs = () => {
     return (
-        <div className=' w-4/5 mx-auto my-5'>
+        <div className=' w-4/5 mx-auto my-5'  data-aos="fade-up">
             <div>
                 <h3 className='text-2xl font-bold'>Question-1: What is Contex API</h3>
                 <p> <span className='font-bold'>Answer:</span>  Contex api use for share data globaly. Contex api helps to share data without props. It can share data without pros drilling.</p>

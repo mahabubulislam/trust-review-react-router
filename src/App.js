@@ -1,3 +1,6 @@
+import AOS from "aos";
+import { useEffect } from "react";
+import 'aos/dist/aos.css';
 import { Route, Routes } from "react-router-dom";
 import About from "./components/About/About";
 import AllReviews from "./components/AllReviews/AllReviews";
@@ -9,6 +12,9 @@ import Home from "./components/Home/Home";
 import NotFound from "./components/NotFound/NotFound";
 
 function App() {
+    useEffect(()=>{
+      AOS.init()
+    },[])
   return (
     <div>
       <Header></Header>
